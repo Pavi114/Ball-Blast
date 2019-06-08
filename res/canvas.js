@@ -291,7 +291,7 @@
         // this.color = "rgb(0,0,190)";
         this.vx = 2;
         this.vy = 0;
-        this.gravity = 0.1; 
+        this.gravity = 0.15; 
         this.pic = image[random(1,3)];
         this.side = side;
         this.draw = function(){
