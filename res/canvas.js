@@ -291,7 +291,7 @@
         // this.color = "rgb(0,0,190)";
         this.vx = 2;
         this.vy = 0;
-        this.gravity = 0.15; 
+        this.gravity = 0.1; 
         this.pic = image[random(1,3)];
         this.side = side;
         this.draw = function(){
@@ -403,7 +403,7 @@
          flag *= -1;
          var strength = random(30,100);
          var radius = random(40,50);
-         var y = random(radius,canvas.width/2 - 30);
+         var y = random(radius + 10,80);
          rocks.push(new rock(x,y,strength,side,radius));
         }
     }
