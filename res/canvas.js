@@ -227,7 +227,7 @@
         y: canvas.height - 80,
         width: 50,
         height: 50,
-        dx: 10,
+        dx: 15,
         acc: 0,
         color: "rgb(255,0,0)",
 
